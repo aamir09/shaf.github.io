@@ -71,7 +71,12 @@ body {
 }
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+  /* color: hsl(204, 86%, 53%) !important; */
+  /* 黑色 */
+  color: hsl(0, 0%, 0%) !important;
+  /* 黑体 */
+  font-family: 'Heiti SC', sans-serif;
+  font-weight: bold;
 }
 
 .publication-authors a:hover {
