@@ -490,6 +490,8 @@
                         </div>
                     </div>
 
+                    <h3 class="title is-4" style="margin-top: 3em">• Example-3: Motion Reasoning</h3>
+
                     <div class="content has-text-justified" style="width: 70pm">
 
                         <div class="content has-text-justified" style="width: 70pm;margin-top: 1.5em">
@@ -507,13 +509,13 @@
                                             style="border-style: solid;">
                                             <!-- 下面的span靠右对齐 -->
                                             <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
-                                                <p><audio playsinline="" controls="">
-                                                        <source type="audio/wav"
-                                                            src="./static/cases/example7/7-2-1.wav">
-                                                    </audio>
+                                                <p>SHAF, can you describe what the person is doing in this motion? <br><br>
+                                                   <video width="360" height="360" autoplay muted preload="auto" loop>
+                                                    <source src="./static/videos/DEMO_MR1_00.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                    </video>
                                                 </p>
-                                                <p style="color: gray; font-size: 1.0em;">(Transcription: Can you draw
-                                                    me a picture of sunny beach?)</p>
+                                                
                                             </span>
                                         </div>
                                     </div>
@@ -526,8 +528,7 @@
                                         <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
                                             style="border-style: solid;">
                                             <span class="md svelte-9tftx4 chatbot">
-                                                <img style="display: inline-block;width: 250px;max-height: 400px;float: left;margin-top:0.7em;"
-                                                    src="./static/cases/example7/7-2-1.jpg">
+                                                <p>The person is walking forward, then they turn around and walk back slowly, and finally, they squat down and get back up.</p>
                                             </span>
                                         </div>
                                     </div>
@@ -541,13 +542,8 @@
                                             style="border-style: solid;">
                                             <!-- 下面的span靠右对齐 -->
                                             <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
-                                                <p><audio playsinline="" controls="">
-                                                        <source type="audio/wav"
-                                                            src="./static/cases/example7/7-2-2.wav">
-                                                    </audio>
-                                                </p>
-                                                <p style="color: gray; font-size: 1.0em;">(Transcription: Give me a
-                                                    similar style of music?)</p>
+                                                <p>Why does the person turn around after running forward?</p>
+                                                
                                             </span>
                                         </div>
                                     </div>
@@ -560,15 +556,77 @@
                                         <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
                                             style="border-style: solid;">
                                             <span class="md svelte-9tftx4 chatbot">
-                                                <p><audio playsinline="" controls="">
-                                                        <source type="audio/wav"
-                                                            src="./static/cases/example7/7-2-3.wav">
-                                                    </audio>
+                                                <p>The person might turn around to return to where they started or to change direction quickly.
                                                 </p>
                                             </span>
 
                                         </div>
                                     </div>
+
+
+                                    <div class="message-row user-row svelte-1uvwjgr" style="width: 100%;">
+                                        <div class="avatar-container svelte-1uvwjgr">
+                                            <img class="avatar-image svelte-1uvwjgr" src="./static/images/user.png"
+                                                alt="avatar-user">
+                                        </div>
+                                        <div data-testid="user" class="message user svelte-1uvwjgr" dir="ltr"
+                                            style="border-style: solid;">
+                                            <!-- 下面的span靠右对齐 -->
+                                            <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
+                                                <p>Why do you think the person is walking back slowly?</p>
+                                                
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="message-row bot-row svelte-1uvwjgr">
+                                        <div class="avatar-container svelte-1uvwjgr">
+                                            <img class="avatar-image svelte-1uvwjgr" src="./static/images/bot.png"
+                                                alt="avatar-bot">
+                                        </div>
+                                        <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
+                                            style="border-style: solid;">
+                                            <span class="md svelte-9tftx4 chatbot">
+                                                <p>Walking back slowly might be to make sure they're careful or to focus on something ahead.
+                                                </p>
+                                            </span>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="message-row user-row svelte-1uvwjgr" style="width: 100%;">
+                                        <div class="avatar-container svelte-1uvwjgr">
+                                            <img class="avatar-image svelte-1uvwjgr" src="./static/images/user.png"
+                                                alt="avatar-user">
+                                        </div>
+                                        <div data-testid="user" class="message user svelte-1uvwjgr" dir="ltr"
+                                            style="border-style: solid;">
+                                            <!-- 下面的span靠右对齐 -->
+                                            <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
+                                                <p>What might the person be doing when they bend down and get back up?</p>
+                                                
+                                            </span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="message-row bot-row svelte-1uvwjgr">
+                                        <div class="avatar-container svelte-1uvwjgr">
+                                            <img class="avatar-image svelte-1uvwjgr" src="./static/images/bot.png"
+                                                alt="avatar-bot">
+                                        </div>
+                                        <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
+                                            style="border-style: solid;">
+                                            <span class="md svelte-9tftx4 chatbot">
+                                                <p>Bending down and getting back up could be part of a exercise routine or a way to move comfortably while performing a task.
+                                                </p>
+                                            </span>
+
+                                        </div>
+                                    </div>
+
+
+                                    
 
                                 </div>
                             </div>
