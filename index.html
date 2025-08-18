@@ -976,8 +976,55 @@
 
                     <!--          End  Example-4-->
 
+
+                    <div class="content has-text-justified" style="width: 70pm">
+
+                        <div class="content has-text-justified" style="width: 70pm;margin-top: 1.5em">
+
+                            <div class="wrapper svelte-nab2ao"
+                                style="box-sizing: border-box;border-width: 2px;border-style: solid;border-color: #f66c0f;border-radius: 11px;padding: 25px;padding-top: 30px;padding-bottom: 30px;">
+
+                                <div class="message-wrap svelte-1uvwjgr" style="width: 100%;">
+                                    <div class="message-row user-row svelte-1uvwjgr" style="width: 100%;">
+                                        <div class="avatar-container svelte-1uvwjgr">
+                                            <img class="avatar-image svelte-1uvwjgr" src="./static/images/user.png"
+                                                alt="avatar-user">
+                                        </div>
+                                        <div data-testid="user" class="message user svelte-1uvwjgr" dir="ltr"
+                                            style="border-style: solid;">
+                                            <!-- 下面的span靠右对齐 -->
+                                            <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
+                                                <p>Generate an image that matches this description, A figure in a dark armored suit wields a red lightsaber amidst a war-tored landscape, suggesting a formidable presence.
+                                                </p>
+                                            
+                                            </span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="message-row bot-row svelte-1uvwjgr">
+                                        <div class="avatar-container svelte-1uvwjgr">
+                                            <img class="avatar-image svelte-1uvwjgr" src="./static/images/bot.png"
+                                                alt="avatar-bot">
+                                        </div>
+                                        <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
+                                            style="border-style: solid;">
+                                            <span class="md svelte-9tftx4 chatbot">
+                                                <p><img style="display: inline-block;width: 250px;max-height: 400px;float: right;margin-top:0.7em"
+                                                src="./static/images/t2i_1.png">
+                                                </p>
+                                            </span>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!--            Example-5-->
-                    <h3 class="title is-4" style="margin-top: 3em">• Example-5: Text → Image + Music</h3>
+                    <h3 class="title is-4" style="margin-top: 3em">• Example-6: Motion to Image </h3>
 
                     <div class="content has-text-justified" style="width: 70pm">
 
@@ -995,7 +1042,12 @@
                                         style="border-style: solid;">
                                         <!-- 下面的span靠右对齐 -->
                                         <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
-                                            <p>Can you show me a picture of a sunny beach?</p>
+                                            <p>Hi SHAF, I’m working on simulating natural eating motions for a video game avatar. Can you show the motion for pouring a drink with the right hand, then reaching left for something else? Please generate an image for this motion.<br><br>
+                                            <video width="360" height="360" autoplay muted preload="auto" loop>
+                                                    <source src="./static/videos/DEMO_M2I_1_00.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                    </video>
+                                            </p>
                                         </span>
                                     </div>
                                 </div>
@@ -1007,8 +1059,9 @@
                                     <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
                                         style="border-style: solid;">
                                         <span class="md svelte-9tftx4 chatbot">
+                                            <p>Here’s an image showing a character taking a drink with one hand, then reaching for another item with the other hand:
                                             <img style="display: inline-block;width: 250px;max-height: 400px;float: left;"
-                                                src="./static/cases/example1/1-1-2.jpg">
+                                                src="./static/images/26.jpg"></p>
 
                                         </span>
                                     </div>
@@ -1023,7 +1076,7 @@
                                         style="border-style: solid;">
                                         <!-- 下面的span靠右对齐 -->
                                         <span class="md svelte-9tftx4 chatbot" style="text-align: left;">
-                                            <p>Can you give me a piece of similar style of music?.</p>
+                                            <p>If I animate this in the game, should the avatar pause between actions or make the sequence continuous?".</p>
                                         </span>
                                     </div>
                                 </div>
@@ -1035,9 +1088,7 @@
                                     <div data-testid="bot" class="message bot svelte-1uvwjgr" dir="ltr"
                                         style="border-style: solid;">
                                         <span class="md svelte-9tftx4 chatbot">
-                                            <p><audio playsinline="" controls="">
-                                                    <source type="audio/wav" src="./static/cases/example1/1-1-2.wav">
-                                                </audio>
+                                            <p>In games, it often makes sense for the avatar to pause between actions for a moment of balance—especially if they’re new to the drink sequence.
                                             </p>
                                         </span>
                                     </div>
